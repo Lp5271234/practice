@@ -7,4 +7,5 @@ target/
 *.class
 node_modules/
 *.exe
+build/
 .DS_Store
