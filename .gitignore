@@ -1,5 +1,9 @@
 .vscode/
 .idea/
+.vs/
+x64/
+Debug/
+Release/
 __pycache__/
 *.py[cod]
 venv/
@@ -7,5 +11,9 @@ target/
 *.class
 node_modules/
 *.exe
+*.user
+*.suo
+*.VC.db
+*.ipch
 build/
 .DS_Store

@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="tese-9-8/tese-9-8.vcxproj" Id="950fdc3c-bdab-41b1-b866-5f188ed3403d" />
+  <Project Path="tese-9-10/tese-9-10.vcxproj" />
 </Solution>
