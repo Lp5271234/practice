@@ -80,6 +80,7 @@ int main()
 	int n = 0;
 	int m = 0;
 	int x = -1;
+	int mid = 0;
 	int score[100];
 	int lp = { sizeof(score) / sizeof(score[0]) };
 	printf("请输入1到100中任意一个数字，查找数组中是否存在这个数字:");
@@ -95,11 +96,11 @@ int main()
 			printf("输入无效,请重新输入：");
 		}
 	} while (n < 1);
-	int first = score[0];
-	int end = score[lp - 1];
+	int first = 0;
+	int end = 99;
 	while (first <= end)
 	{
-		int mid = first + (end - first) / 2;
+		 mid = first + (end - first) / 2;
 		if (score[mid] < n)
 		{
 			first = mid + 1;
